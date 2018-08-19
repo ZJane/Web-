@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Zmh">
+  <link rel="icon" href="../image/favicon.ico">
+  <title>Z-H's Home</title>
+</head>
+<body>
+	<script>
+		function test(){
+			var str = document.getElementById("test1").value;
+			document.getElementById("test0").innerHTML = "<a href='"+str+"'>testLink</a>"
+		}
+	</script>
+	
+	<div id="test0" ></div>     
+	<input type="text" id="test1" value="" />
+	<input type="button" id="test2" value="提交" onclick="test()"/>
+	
+</body>
+
+</html>
