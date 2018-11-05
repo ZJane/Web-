@@ -93,3 +93,8 @@ export default Products;
 ```bash
 npm install bizcharts --save
 ```
+安装完成之后，即可使用 import 或 require 进行引用。
+## 绘制一个简单的图表
+1、在src下新建page/Dashboard/AppAnalysis.js 在该js下声明需要用到的图表
+
+
